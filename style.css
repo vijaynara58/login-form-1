@@ -1,0 +1,85 @@
+.head-nav {
+    position: relative;
+    display: flex;
+    background: #340;
+    text-align: center;
+    color: white;
+  }
+  .logo {
+    text-align: center;
+    align-items: center;
+    padding: 14px 16px;
+  }
+  .head-nav-search {
+    padding: 2px;
+    border: 10px solid rgba(51, 68, 0);
+  }
+  .username {
+    padding: 14px 16px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  li { 
+    float: left;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  h1 {
+    font-size: 4em;
+    text-align: center;
+    color: green;
+  }
+  body {
+    background-image: url("https://user-images.githubusercontent.com/62456972/121079875-b92b7c00-c7a8-11eb-95a4-0ce03e2446ee.jpg"); 
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    
+    outline: none;
+    color: #f70566;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-div {
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid green;
+    width: 30em;
+    height: 20em;
+    text-align: center;
+    justify-content: center;
+    color: rgba(51, 68, 0);
+  }
+  label {
+    font-weight: 800;
+    color: green;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .user, .pass {
+    margin: 20px;
+  }
+  button {
+    background: rgba(51, 68, 0);
+    color: white;
+    padding: 5px;
+  }
